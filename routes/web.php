@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/remote-users', [UserController::class, 'getRemoteUsers']);
+
+Route::get('/remote-users-2', [UserController::class, 'getRemoteUsers']);
